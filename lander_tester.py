@@ -37,7 +37,7 @@ def get_discrete_state(observation):
     return discrete_state
 
 
-q_table = np.load('qtables/24999-qtable(25000run-03-landed).npy') ### Load Q-table
+q_table = np.load('') ### Load Q-table
 
 
 current_state = get_discrete_state(observation)
